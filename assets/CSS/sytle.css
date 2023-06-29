@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+.box{
+    height: 90%;
+    width: 50%;
+    margin-bottom: var(--margin-base);
+    color: var(--color-blue);
+}
+
+.box h2{
+    font-size: 6vmin;
+    margin: var(--margin-base) 0;
+}
+
+.box p{
+    width: 90%;
+    font-size: 3vmin;
+    margin: var(--margin-base) 0;
+}
+.titulo{
+    color: var(--color-orange);
+}
+
+.titulo h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-itens{
+    padding: 0 10px;
+    height: 90px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-itens label{
+    font-size: 18px;
+}
+
+input, select{
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.box-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: var(--margin-base);
+}
+
+.box-button button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--color-orange);
+    color: var(--color-blue);
+    border:0;
+    border-radius: 6px;
+    font-size: 1.3rem;
+}
+
